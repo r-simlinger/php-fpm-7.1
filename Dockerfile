@@ -31,4 +31,4 @@ RUN mv composer.phar /usr/local/bin/composer
 RUN apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 CMD ["/usr/bin/php-fpm"]
 
-EXPOSE 9000 80 443
+EXPOSE 443
